@@ -13,6 +13,7 @@
 
 **Merged pull requests:**
 
+- Prepare release 1.16.0. [\#442](https://github.com/openeuropa/oe_bootstrap_theme/pull/442) ([drishu](https://github.com/drishu))
 - OEL-2742: Fixed gallery tests. [\#441](https://github.com/openeuropa/oe_bootstrap_theme/pull/441) ([tibi2303](https://github.com/tibi2303))
 
 ## [1.15.0](https://github.com/openeuropa/oe_bootstrap_theme/tree/1.15.0) (2024-10-07)
