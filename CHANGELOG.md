@@ -1,14 +1,113 @@
 # Change Log
 
-## [1.11.0](https://github.com/openeuropa/oe_bootstrap_theme/tree/1.11.0) (2024-07-17)
-[Full Changelog](https://github.com/openeuropa/oe_bootstrap_theme/compare/1.10.1...1.11.0)
+## [1.17.0](https://github.com/openeuropa/oe_bootstrap_theme/tree/1.17.0) (2024-11-06)
+[Full Changelog](https://github.com/openeuropa/oe_bootstrap_theme/compare/1.16.0...1.17.0)
 
 **Merged pull requests:**
 
+- OEL-3421: Added accessible toggle for modal and offcanvas. [\#444](https://github.com/openeuropa/oe_bootstrap_theme/pull/444) ([tibi2303](https://github.com/tibi2303))
+- OEL-3417: Added subtitle tag for featured media. [\#438](https://github.com/openeuropa/oe_bootstrap_theme/pull/438) ([tibi2303](https://github.com/tibi2303))
+
+## [1.16.0](https://github.com/openeuropa/oe_bootstrap_theme/tree/1.16.0) (2024-10-08)
+[Full Changelog](https://github.com/openeuropa/oe_bootstrap_theme/compare/1.15.0...1.16.0)
+
+**Merged pull requests:**
+
+- Prepare release 1.16.0. [\#442](https://github.com/openeuropa/oe_bootstrap_theme/pull/442) ([drishu](https://github.com/drishu))
+- OEL-2742: Fixed gallery tests. [\#441](https://github.com/openeuropa/oe_bootstrap_theme/pull/441) ([tibi2303](https://github.com/tibi2303))
+
+## [1.15.0](https://github.com/openeuropa/oe_bootstrap_theme/tree/1.15.0) (2024-10-07)
+[Full Changelog](https://github.com/openeuropa/oe_bootstrap_theme/compare/1.14.0...1.15.0)
+
+**Implemented enhancements:**
+
+- Gallery pattern: caption title, link is rendered for playable media [\#327](https://github.com/openeuropa/oe_bootstrap_theme/issues/327)
+
+**Fixed bugs:**
+
+- Extra space added to image/dateblock in card \(search variant\) in md size [\#414](https://github.com/openeuropa/oe_bootstrap_theme/issues/414)
+- Rounded bottom border [\#388](https://github.com/openeuropa/oe_bootstrap_theme/issues/388)
+- The styles for the card pattern \(search variant\) and BCL are not consistent [\#319](https://github.com/openeuropa/oe_bootstrap_theme/issues/319)
+- Media Library pagination not working [\#257](https://github.com/openeuropa/oe_bootstrap_theme/issues/257)
+- PHP Notice when Listing item block title is not set [\#141](https://github.com/openeuropa/oe_bootstrap_theme/issues/141)
+
+**Merged pull requests:**
+
+- Prepare release 1.15.0. [\#440](https://github.com/openeuropa/oe_bootstrap_theme/pull/440) ([drishu](https://github.com/drishu))
+- OEL-0000: Fix drupal/coder issues. [\#437](https://github.com/openeuropa/oe_bootstrap_theme/pull/437) ([tibi2303](https://github.com/tibi2303))
+- OEL-3413: Removed default throbbler image of js form elements. [\#436](https://github.com/openeuropa/oe_bootstrap_theme/pull/436) ([tibi2303](https://github.com/tibi2303))
+- OEL-2742: Gallery captions hide on video. [\#361](https://github.com/openeuropa/oe_bootstrap_theme/pull/361) ([tibi2303](https://github.com/tibi2303))
+
+## [1.14.0](https://github.com/openeuropa/oe_bootstrap_theme/tree/1.14.0) (2024-09-20)
+[Full Changelog](https://github.com/openeuropa/oe_bootstrap_theme/compare/1.13.0...1.14.0)
+
+**Merged pull requests:**
+
+- OEL-3431: Update BCL package. [\#434](https://github.com/openeuropa/oe_bootstrap_theme/pull/434) ([drishu](https://github.com/drishu))
+
+## [1.13.0](https://github.com/openeuropa/oe_bootstrap_theme/tree/1.13.0) (2024-09-10)
+[Full Changelog](https://github.com/openeuropa/oe_bootstrap_theme/compare/1.12.0...1.13.0)
+
+**Implemented enhancements:**
+
+- Clean up badge.ui\_patterns.yml [\#377](https://github.com/openeuropa/oe_bootstrap_theme/issues/377)
+
+**Fixed bugs:**
+
+- Card pattern meta and text add extra space to the bottom [\#386](https://github.com/openeuropa/oe_bootstrap_theme/issues/386)
+
+**Merged pull requests:**
+
+- Prepare release 1.13.0. [\#429](https://github.com/openeuropa/oe_bootstrap_theme/pull/429) ([drishu](https://github.com/drishu))
+- OEL-3325: Responsive inpage navigation. [\#427](https://github.com/openeuropa/oe_bootstrap_theme/pull/427) ([tibi2303](https://github.com/tibi2303))
+- OEL-3316: Fix card margin regression. [\#426](https://github.com/openeuropa/oe_bootstrap_theme/pull/426) ([drishu](https://github.com/drishu))
+- OEL-3019: Improved spacing between content in card. [\#425](https://github.com/openeuropa/oe_bootstrap_theme/pull/425) ([tibi2303](https://github.com/tibi2303))
+- OEL-3018: Style fix for rounded corners on listing item. [\#424](https://github.com/openeuropa/oe_bootstrap_theme/pull/424) ([tibi2303](https://github.com/tibi2303))
+- OEL-3020: Changed description on multiple patterns. [\#423](https://github.com/openeuropa/oe_bootstrap_theme/pull/423) ([tibi2303](https://github.com/tibi2303))
+- OEL-2283: Added overridable icon\_path. [\#422](https://github.com/openeuropa/oe_bootstrap_theme/pull/422) ([tibi2303](https://github.com/tibi2303))
+- OEL-3024: Added tests for new class on pagination. [\#420](https://github.com/openeuropa/oe_bootstrap_theme/pull/420) ([tibi2303](https://github.com/tibi2303))
+
+
+## [1.12.0](https://github.com/openeuropa/oe_bootstrap_theme/tree/1.12.0) (2024-08-16)
+[Full Changelog](https://github.com/openeuropa/oe_bootstrap_theme/compare/1.11.0...1.12.0)
+
+**Fixed bugs:**
+
+- Drupal 10.3: 'responsive' is not a supported key. [\#411](https://github.com/openeuropa/oe_bootstrap_theme/issues/411)
+
+**Merged pull requests:**
+
+- Prepare release 1.12.0. [\#421](https://github.com/openeuropa/oe_bootstrap_theme/pull/421) ([drishu](https://github.com/drishu))
+- OEL-3176: Wrong changelog for 1.11.0 [\#416](https://github.com/openeuropa/oe_bootstrap_theme/pull/416) ([AaronGilMartinez](https://github.com/AaronGilMartinez))
+- OEL-1686: Removed duplicated class on offcanvas body. [\#415](https://github.com/openeuropa/oe_bootstrap_theme/pull/415) ([tibi2303](https://github.com/tibi2303))
+- ELA-1118: Add schema for the filter settings [\#412](https://github.com/openeuropa/oe_bootstrap_theme/pull/412) ([piotrsmykaj](https://github.com/piotrsmykaj))
+- EPHEH-318: Add Color Scheme [\#392](https://github.com/openeuropa/oe_bootstrap_theme/pull/392) ([drishu](https://github.com/drishu))
+
+## [1.11.0](https://github.com/openeuropa/oe_bootstrap_theme/tree/1.11.0) (2024-07-17)
+[Full Changelog](https://github.com/openeuropa/oe_bootstrap_theme/compare/1.10.1...1.11.0)
+
+**Implemented enhancements:**
+
+- Theme views table [\#312](https://github.com/openeuropa/oe_bootstrap_theme/issues/312)
+- Responsive tables missing the toggle to show/hide "low priority column" [\#311](https://github.com/openeuropa/oe_bootstrap_theme/issues/311)
+
+**Closed issues:**
+
+- OEL-2770: \[Gallery pattern\] Sentence case for actions [\#363](https://github.com/openeuropa/oe_bootstrap_theme/issues/363)
+
+**Merged pull requests:**
+
+- Prepare release 1.11.0. [\#409](https://github.com/openeuropa/oe_bootstrap_theme/pull/409) ([drishu](https://github.com/drishu))
 - OEL-3054: Update steps to create releases. [\#408](https://github.com/openeuropa/oe_bootstrap_theme/pull/408) ([AaronGilMartinez](https://github.com/AaronGilMartinez))
 - OEL-3054: Update to Drupal 10.3 [\#407](https://github.com/openeuropa/oe_bootstrap_theme/pull/407) ([AaronGilMartinez](https://github.com/AaronGilMartinez))
 - Update 1.x with 1.10.1. [\#403](https://github.com/openeuropa/oe_bootstrap_theme/pull/403) ([brummbar](https://github.com/brummbar))
 - OEL-2646: Added margin-bottom for backward compatibility card. [\#399](https://github.com/openeuropa/oe_bootstrap_theme/pull/399) ([tibi2303](https://github.com/tibi2303))
+- OEL-2743: Theme views table. [\#397](https://github.com/openeuropa/oe_bootstrap_theme/pull/397) ([AaronGilMartinez](https://github.com/AaronGilMartinez))
+- OEL-1863: Changed selector from FilePattern. [\#396](https://github.com/openeuropa/oe_bootstrap_theme/pull/396) ([tibi2303](https://github.com/tibi2303))
+- OEL-1771: Moved patterns tests from oe\_whitelabel. [\#395](https://github.com/openeuropa/oe_bootstrap_theme/pull/395) ([tibi2303](https://github.com/tibi2303))
+- OEL-2770: Changed actions label for gallery. [\#394](https://github.com/openeuropa/oe_bootstrap_theme/pull/394) ([tibi2303](https://github.com/tibi2303))
+- OEL-1948: Added title and title\_tag to patterns. [\#391](https://github.com/openeuropa/oe_bootstrap_theme/pull/391) ([tibi2303](https://github.com/tibi2303))
+- OEL-2769: Card v2. [\#378](https://github.com/openeuropa/oe_bootstrap_theme/pull/378) ([tibi2303](https://github.com/tibi2303))
 
 ## [1.10.1](https://github.com/openeuropa/oe_bootstrap_theme/tree/1.10.1) (2024-06-27)
 [Full Changelog](https://github.com/openeuropa/oe_bootstrap_theme/compare/1.10.0...1.10.1)

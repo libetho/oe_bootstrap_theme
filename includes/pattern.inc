@@ -137,6 +137,8 @@ function oe_bootstrap_theme_preprocess_pattern_navbar(array &$variables): void {
  * Implements hook_preprocess_HOOK() for featured media pattern.
  */
 function oe_bootstrap_theme_preprocess_pattern_featured_media(&$variables) {
+  $variables['featured_media_subtitle_tag_h5'] = BackwardCompatibility::getSetting('featured_media_subtitle_tag_h5');
+
   if (!isset($variables['image'])) {
     return;
   }
@@ -162,6 +164,7 @@ function oe_bootstrap_theme_preprocess_pattern_featured_media(&$variables) {
  * Implements hook_preprocess_HOOK() for inpage navigation pattern.
  */
 function oe_bootstrap_theme_preprocess_pattern_inpage_navigation(&$variables): void {
+  $variables['inpage_navigation_dropdown_id'] = Html::getUniqueId(($variables['attributes']['id'] ?? 'bcl-inpage-navigation') . '-dropdown');
   $variables['inpage_navigation_id'] = $variables['attributes']['id'] ?? Html::getUniqueId('bcl-inpage-navigation');
 }
 
